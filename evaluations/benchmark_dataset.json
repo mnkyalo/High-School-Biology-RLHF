@@ -1,1 +1,17 @@
-
+[
+  {
+    "id": "PROMPT_01",
+    "domain": "Biology",
+    "category": "Cellular transport mechanisms.",
+    "title": "Compare and contrast two cellular transport mechanisms.",
+    "prompt": "Compare facilitated diffusion and active transport across a cell membrane. In 1 to 2 paragraphs, explain how these two processes are similar, how they differ in terms of energy and direction of movement, and give an example of a substance transported by each.",
+    "model_a_name": "Model A",
+    "model_a_response": "Both facilitated diffusion and active transport are mechanisms used by cells to move specific substances across the plasma membrane using specialized membrane proteins. Because hydrophobic phospholipid tails block large or charged molecules, both processes rely on transmembrane proteins—such as channel or carrier proteins—to allow these molecules to cross safely.\n\nHowever, they differ fundamentally in their energy requirements and direction of movement. Facilitated diffusion is a passive process that moves molecules down their concentration gradient (from high to low concentration) without requiring cellular energy (ATP), such as glucose entering a red blood cell. In contrast, active transport is an active process that moves substances against their concentration gradient (from low to high concentration), requiring energy provided by ATP hydrolysis, such as the sodium-potassium pump maintaining ion concentrations in nerve cells.",
+    "model_b_name": "Model B",
+    "model_b_response": "Facilitated diffusion and active transport are both ways cells move things into and out of the cell. They are similar because both processes require transport proteins embedded in the cell membrane to help transport substances that cannot pass through the lipid bilayer on their own, such as ions and glucose.\n\nThe main difference between them comes down to energy usage. Active transport uses energy (ATP) to move molecules across the cell membrane, whereas facilitated diffusion moves molecules faster using special channels. For example, active transport moves sodium ions out of the cell, while facilitated diffusion moves water molecules through aquaporin channels."
+  },
+  "evaluation": {
+      "winning_model": "Model A",
+      "sme_critique": "Model A clearly defined concentration gradients (high-to-low vs low-to-high) and accurate energy dependencies. Model B failed to mention concentration gradients entirely..."
+    }
+]
