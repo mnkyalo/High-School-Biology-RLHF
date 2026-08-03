@@ -1,6 +1,6 @@
 # High School Biology LLM Evaluation Benchmark (RLHF Pairwise Dataset)
 
-![Domain](https://img.shields.io/badge/Domain-Biology%20%26%20Pedagogy-blue)
+![Domain](https://img.shields.io/badge/Domain-Biology-blue)
 ![Format](https://img.shields.io/badge/Format-Pairwise%20Preference%20(RLHF)-green)
 ![Tool](https://img.shields.io/badge/Labeling%20Platform-Label%20Studio-orange)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
@@ -66,7 +66,7 @@ The processed master dataset (`evaluations/benchmark_dataset.json`) follows this
 
 Annotations were performed in a custom side-by-side pairwise interface built with **Label Studio**. The UI is configured to facilitate rapid qualitative evaluation, error tagging, and detailed SME rationale submission.
 
-![Label Studio Evaluation Workspace](assets/High School Biology RLHF benchmark.png)
+![Label Studio Evaluation Workspace](assets/High_School_Biology_RLHF_benchmark.png)
 *Figure 1: Custom Label Studio visual interface featuring side-by-side candidate outputs, preference selections, and SME rationale breakdown.*
 
 ### Interface Features
