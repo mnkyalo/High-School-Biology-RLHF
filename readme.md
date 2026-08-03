@@ -66,7 +66,7 @@ The processed master dataset (`evaluations/benchmark_dataset.json`) follows this
 
 Annotations were performed in a custom side-by-side pairwise interface built with **Label Studio**. The UI is configured to facilitate rapid qualitative evaluation, error tagging, and detailed SME rationale submission.
 
-![Label Studio Evaluation Workspace](assets/High-School-Biology-RLHF-benchmark.png)
+![Label Studio Evaluation Workspace](assets/High School Biology RLHF benchmark.png)
 *Figure 1: Custom Label Studio visual interface featuring side-by-side candidate outputs, preference selections, and SME rationale breakdown.*
 
 ### Interface Features
