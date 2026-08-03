@@ -13,15 +13,12 @@ Using a pairwise comparison methodology (Model A vs. Model B), candidate model o
 
 ---
 
-
----
-
 ## Key Evaluation Criteria
 
 Each prompt evaluation tests models on three key dimensions:
 
 1. **Scientific Accuracy:** Correct identification of biological structures, mechanisms, and chemical inputs/outputs (e.g., active vs. passive transport gradients, ATP requirements).
-2. **Pedagogical Clarity:** Clear explanations suitable for high school learners, avoiding overly dense technical jargon while maintaining scientific precision.
+2. **Clarity:** Clear explanations suitable for high school learners, avoiding overly dense technical jargon while maintaining scientific precision.
 3. **Completeness & Constraint Adherence:** Complete execution of multi-part prompts (e.g., including examples, maintaining 1–2 paragraph length constraints).
 
 ---
@@ -69,7 +66,7 @@ The processed master dataset (`evaluations/benchmark_dataset.json`) follows this
 
 Annotations were performed in a custom side-by-side pairwise interface built with **Label Studio**. The UI is configured to facilitate rapid qualitative evaluation, error tagging, and detailed SME rationale submission.
 
-![Label Studio Evaluation Workspace](assets/label_studio_workspace.png)
+![Label Studio Evaluation Workspace](assets/High-School-Biology-RLHF-benchmark.png)
 *Figure 1: Custom Label Studio visual interface featuring side-by-side candidate outputs, preference selections, and SME rationale breakdown.*
 
 ### Interface Features
